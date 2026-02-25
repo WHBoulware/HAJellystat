@@ -1,0 +1,24 @@
+{
+  "name": "Jellystat",
+  "version": "1.0.0",
+  "slug": "jellystat",
+  "description": "Jellyfin statistics and monitoring dashboard",
+  "startup": "services",
+  "boot": "auto",
+  "init": false,
+  "ingress": false,
+  "panel_icon": "mdi:chart-line",
+  "ports": {
+    "3000/tcp": 3000
+  },
+  "ports_description": {
+    "3000/tcp": "Jellystat Web UI"
+  },
+  "map": [
+    "config:rw"
+  ],
+  "arch": [
+    "amd64",
+    "aarch64"
+  ]
+}
