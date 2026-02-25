@@ -1,0 +1,2 @@
+# HAJellystat
+Jellyfin Statistics
